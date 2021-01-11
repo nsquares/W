@@ -15,12 +15,12 @@ namespace W
     public class MainActivity : AppCompatActivity
     {
 
-        List<string> items = new List<string>();
+        static List<string> items = new List<string>();
         //string[] items;
 
         static ListView mainList;
 
-        int clickCounter = 0;
+        static int clickCounter = 0;
 
         //ArrayAdapter adapter;        
         //private ListView mListView;
@@ -63,6 +63,9 @@ namespace W
             mainList = FindViewById<ListView>(Resource.Id.mainlistview);
             mainList.Adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, items);
 
+            
+
+
             mainList.ItemClick += (s, e) => {
                 var t = items[e.Position];
                 Android.Widget.Toast.MakeText(this, t, Android.Widget.ToastLength.Long).Show();
@@ -94,10 +97,10 @@ namespace W
             
             items.Add("Clicked :" + clickCounter++);
             mainList.Adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, items);
-
-
+            
         }
         
+
 
 
         /*
