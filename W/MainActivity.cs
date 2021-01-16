@@ -95,7 +95,7 @@ namespace W
         private void Addbutton_Click(object sender, EventArgs e)
         {
             
-            items.Add("Clicked :" + clickCounter++);
+            items.Add("bruh :" + clickCounter++);
             mainList.Adapter = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, items);
             
         }

@@ -1484,24 +1484,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\natha\\.nuget\\packages\\": {},
+    "C:\\Users\\BlackWind\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\natha\\source\\repos\\W\\W\\W.csproj",
+      "projectUniqueName": "C:\\Users\\BlackWind\\Source\\Repos\\W\\W\\W.csproj",
       "projectName": "W",
-      "projectPath": "C:\\Users\\natha\\source\\repos\\W\\W\\W.csproj",
-      "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\natha\\source\\repos\\W\\W\\obj\\",
+      "projectPath": "C:\\Users\\BlackWind\\Source\\Repos\\W\\W\\W.csproj",
+      "packagesPath": "C:\\Users\\BlackWind\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BlackWind\\Source\\Repos\\W\\W\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BlackWind\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
